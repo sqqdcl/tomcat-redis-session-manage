@@ -1,0 +1,17 @@
+2018/08/03 14:49:54 [error] 14248#6456: *38 upstream timed out (10060: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond) while connecting to upstream, client: 127.0.0.1, server: www.tuesdayma.com, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8090/", host: "www.tuesdayma.com"
+2018/08/03 16:35:58 [notice] 15440#15444: signal process started
+2020/02/20 22:31:46 [emerg] 16424#14632: CreateDirectory() "D:\ProjectCode\my2019\session_manager-master\session_manager-master\nginx-1.13.12/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/02/20 22:42:34 [emerg] 8224#15672: CreateDirectory() "D:\ProjectCode\my2019\session_manager-master\session_manager-master\nginx-1.13.12/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/02/20 22:42:37 [emerg] 16296#15452: CreateDirectory() "D:\ProjectCode\my2019\session_manager-master\session_manager-master\nginx-1.13.12/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/02/20 22:49:41 [emerg] 18000#18004: CreateDirectory() "D:\ProjectCode\my2019\session_manager-master\session_manager-master\nginx-1.13.12/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/02/20 22:50:47 [emerg] 1676#1336: CreateDirectory() "D:\ProjectCode\my2019\session_manager-master\session_manager-master\nginx-1.13.12/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/02/20 22:52:13 [notice] 18140#12392: signal process started
+2020/02/20 22:52:13 [error] 18140#12392: OpenEvent("Global\ngx_reload_15352") failed (2: The system cannot find the file specified)
+2020/02/20 22:52:38 [emerg] 17664#15064: CreateDirectory() "D:\ProjectCode\my2019\session_manager-master\session_manager-master\nginx-1.13.12/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/02/20 22:52:49 [emerg] 12700#3852: CreateDirectory() "D:\ProjectCode\my2019\session_manager-master\session_manager-master\nginx-1.13.12/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/02/20 22:56:23 [emerg] 17288#11312: CreateDirectory() "D:\ProjectCode\my2019\session_manager-master\session_manager-master\nginx-1.13.12/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/02/20 22:58:53 [emerg] 13152#17544: CreateDirectory() "D:\session_manager-master\nginx-1.13.12/temp/client_body_temp" failed (3: The system cannot find the path specified)
+2020/02/20 23:14:24 [notice] 16324#15528: signal process started
+2020/02/21 20:41:40 [notice] 6204#19632: signal process started
+2020/02/21 20:41:54 [notice] 19452#7356: signal process started
+2020/02/21 20:41:54 [error] 19452#7356: CreateFile() "D:\session_manager-master\nginx-1.13.12/logs/nginx.pid" failed (2: The system cannot find the file specified)

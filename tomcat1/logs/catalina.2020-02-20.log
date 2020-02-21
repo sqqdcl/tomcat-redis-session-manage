@@ -1,0 +1,105 @@
+20-Feb-2020 22:32:34.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.32
+20-Feb-2020 22:32:34.233 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 2 2016 19:34:53 UTC
+20-Feb-2020 22:32:34.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.32.0
+20-Feb-2020 22:32:34.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Feb-2020 22:32:34.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Feb-2020 22:32:34.234 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Feb-2020 22:32:34.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\jdk1.8.0_211\jre
+20-Feb-2020 22:32:34.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_211-b12
+20-Feb-2020 22:32:34.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Feb-2020 22:32:34.235 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ProjectCode\my2019\session_manager-master\session_manager-master\tomcat1
+20-Feb-2020 22:32:34.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\ProjectCode\my2019\session_manager-master\session_manager-master\tomcat1
+20-Feb-2020 22:32:34.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ProjectCode\my2019\session_manager-master\session_manager-master\tomcat1\conf\logging.properties
+20-Feb-2020 22:32:34.236 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Feb-2020 22:32:34.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=D:\ProjectCode\my2019\session_manager-master\session_manager-master\tomcat1\endorsed
+20-Feb-2020 22:32:34.237 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ProjectCode\my2019\session_manager-master\session_manager-master\tomcat1
+20-Feb-2020 22:32:34.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\ProjectCode\my2019\session_manager-master\session_manager-master\tomcat1
+20-Feb-2020 22:32:34.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ProjectCode\my2019\session_manager-master\session_manager-master\tomcat1\temp
+20-Feb-2020 22:32:34.241 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.4 using APR version 1.5.1.
+20-Feb-2020 22:32:34.241 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+20-Feb-2020 22:32:34.822 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2e 3 Dec 2015)
+20-Feb-2020 22:32:34.998 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8090"]
+20-Feb-2020 22:32:35.005 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+20-Feb-2020 22:32:35.007 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1123 ms
+20-Feb-2020 22:32:35.040 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+20-Feb-2020 22:32:35.041 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.32
+20-Feb-2020 22:32:35.056 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\ProjectCode\my2019\session_manager-master\session_manager-master\tomcat1\webapps\ROOT
+20-Feb-2020 22:32:35.558 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Feb-2020 22:32:36.345 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [746] milliseconds.
+20-Feb-2020 22:32:36.375 INFO [localhost-startStop-1] tomcat.request.session.redis.SessionManager.startInternal The sessions will expire after 1800 seconds.
+20-Feb-2020 22:32:36.392 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\ProjectCode\my2019\session_manager-master\session_manager-master\tomcat1\webapps\ROOT has finished in 1,335 ms
+20-Feb-2020 22:32:36.394 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8090"]
+20-Feb-2020 22:32:36.403 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+20-Feb-2020 22:32:36.407 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1395 ms
+20-Feb-2020 22:34:48.755 SEVERE [http-apr-8090-exec-3] tomcat.request.session.data.cache.impl.RedisDataCache$RedisCacheUtil.get Jedis connection failed, retrying...1
+20-Feb-2020 22:35:32.399 SEVERE [http-apr-8090-exec-3] tomcat.request.session.data.cache.impl.RedisDataCache$RedisCacheUtil.get Jedis connection failed, retrying...2
+20-Feb-2020 22:35:33.402 SEVERE [http-apr-8090-exec-3] tomcat.request.session.data.cache.impl.RedisDataCache$RedisCacheUtil.get Jedis connection failed, retrying...3
+20-Feb-2020 22:35:44.021 SEVERE [http-apr-8090-exec-7] tomcat.request.session.data.cache.impl.RedisDataCache$RedisCacheUtil.get Jedis connection failed, retrying...1
+20-Feb-2020 22:35:45.022 SEVERE [http-apr-8090-exec-7] tomcat.request.session.data.cache.impl.RedisDataCache$RedisCacheUtil.get Jedis connection failed, retrying...2
+20-Feb-2020 22:35:46.036 SEVERE [http-apr-8090-exec-7] tomcat.request.session.data.cache.impl.RedisDataCache$RedisCacheUtil.get Jedis connection failed, retrying...3
+20-Feb-2020 22:39:07.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.32
+20-Feb-2020 22:39:07.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 2 2016 19:34:53 UTC
+20-Feb-2020 22:39:07.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.32.0
+20-Feb-2020 22:39:07.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Feb-2020 22:39:07.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Feb-2020 22:39:07.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Feb-2020 22:39:07.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\jdk1.8.0_211\jre
+20-Feb-2020 22:39:07.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_211-b12
+20-Feb-2020 22:39:07.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Feb-2020 22:39:07.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\ProjectCode\my2019\session_manager-master\session_manager-master\tomcat1
+20-Feb-2020 22:39:07.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\ProjectCode\my2019\session_manager-master\session_manager-master\tomcat1
+20-Feb-2020 22:39:07.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\ProjectCode\my2019\session_manager-master\session_manager-master\tomcat1\conf\logging.properties
+20-Feb-2020 22:39:07.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Feb-2020 22:39:07.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=D:\ProjectCode\my2019\session_manager-master\session_manager-master\tomcat1\endorsed
+20-Feb-2020 22:39:07.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\ProjectCode\my2019\session_manager-master\session_manager-master\tomcat1
+20-Feb-2020 22:39:07.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\ProjectCode\my2019\session_manager-master\session_manager-master\tomcat1
+20-Feb-2020 22:39:07.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\ProjectCode\my2019\session_manager-master\session_manager-master\tomcat1\temp
+20-Feb-2020 22:39:07.672 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.4 using APR version 1.5.1.
+20-Feb-2020 22:39:07.673 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+20-Feb-2020 22:39:08.276 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2e 3 Dec 2015)
+20-Feb-2020 22:39:08.390 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8090"]
+20-Feb-2020 22:39:08.397 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+20-Feb-2020 22:39:08.399 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1017 ms
+20-Feb-2020 22:39:08.429 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+20-Feb-2020 22:39:08.429 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.32
+20-Feb-2020 22:39:08.438 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\ProjectCode\my2019\session_manager-master\session_manager-master\tomcat1\webapps\ROOT
+20-Feb-2020 22:39:08.917 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Feb-2020 22:39:09.722 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [772] milliseconds.
+20-Feb-2020 22:39:09.753 INFO [localhost-startStop-1] tomcat.request.session.redis.SessionManager.startInternal The sessions will expire after 1800 seconds.
+20-Feb-2020 22:39:09.769 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\ProjectCode\my2019\session_manager-master\session_manager-master\tomcat1\webapps\ROOT has finished in 1,331 ms
+20-Feb-2020 22:39:09.771 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8090"]
+20-Feb-2020 22:39:09.784 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+20-Feb-2020 22:39:09.788 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1388 ms
+20-Feb-2020 22:59:53.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.32
+20-Feb-2020 22:59:53.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 2 2016 19:34:53 UTC
+20-Feb-2020 22:59:53.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.32.0
+20-Feb-2020 22:59:53.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+20-Feb-2020 22:59:53.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+20-Feb-2020 22:59:53.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Feb-2020 22:59:53.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\jdk1.8.0_211\jre
+20-Feb-2020 22:59:53.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_211-b12
+20-Feb-2020 22:59:53.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Feb-2020 22:59:53.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\session_manager-master\tomcat1
+20-Feb-2020 22:59:53.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\session_manager-master\tomcat1
+20-Feb-2020 22:59:53.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\session_manager-master\tomcat1\conf\logging.properties
+20-Feb-2020 22:59:53.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Feb-2020 22:59:53.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=D:\session_manager-master\tomcat1\endorsed
+20-Feb-2020 22:59:53.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\session_manager-master\tomcat1
+20-Feb-2020 22:59:53.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\session_manager-master\tomcat1
+20-Feb-2020 22:59:53.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\session_manager-master\tomcat1\temp
+20-Feb-2020 22:59:53.346 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library 1.2.4 using APR version 1.5.1.
+20-Feb-2020 22:59:53.353 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+20-Feb-2020 22:59:54.240 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized (OpenSSL 1.0.2e 3 Dec 2015)
+20-Feb-2020 22:59:54.416 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-apr-8090"]
+20-Feb-2020 22:59:54.427 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-apr-8009"]
+20-Feb-2020 22:59:54.429 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1496 ms
+20-Feb-2020 22:59:54.475 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+20-Feb-2020 22:59:54.475 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.32
+20-Feb-2020 22:59:54.488 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory D:\session_manager-master\tomcat1\webapps\ROOT
+20-Feb-2020 22:59:55.190 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Feb-2020 22:59:56.614 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,371] milliseconds.
+20-Feb-2020 22:59:56.649 INFO [localhost-startStop-1] tomcat.request.session.redis.SessionManager.startInternal The sessions will expire after 1800 seconds.
+20-Feb-2020 22:59:56.665 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory D:\session_manager-master\tomcat1\webapps\ROOT has finished in 2,177 ms
+20-Feb-2020 22:59:56.669 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-apr-8090"]
+20-Feb-2020 22:59:56.679 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-apr-8009"]
+20-Feb-2020 22:59:56.683 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2251 ms

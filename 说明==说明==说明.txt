@@ -1,0 +1,12 @@
+1、运行Redis======双击：redis.bat
+2、运行Tomcat1====双击：startup.bat
+3、运行Tomcat2====双击：startup.bat
+4、运行nginx======双击：nginx.exe   一闪而过就对了
+
+访问：http://127.0.0.1:8083
+访问：http://127.0.0.1:8084
+访问：http://127.0.0.1
+
+
+大功告成！！！
+
